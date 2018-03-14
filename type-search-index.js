@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"cnam.pendu.leclerc","l":"Dessin"},{"p":"cnam.pendu.leclerc","l":"Jeu"},{"p":"cnam.pendu.leclerc","l":"RegleDuJeu"}]
