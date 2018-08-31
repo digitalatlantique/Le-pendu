@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -172,18 +173,18 @@ public class RegleDuJeu {
     	ArrayList<String> dictionnaire = new ArrayList<String>();
     	
     	String ligne = "";
-    	String path = "./assets/dictionnaire.txt";
-    	File file = new File(path);
+    	String path = "/data/dictionnaire.txt";
+    	
     	try {
-    		FileReader fr = new FileReader(file);
-    		BufferedReader br = new BufferedReader(fr);
+    		InputStreamReader isr = new InputStreamReader(this.getClass().getResourceAsStream(path)); 
+    		BufferedReader br = new BufferedReader(isr);
     		
     		
     		while((ligne = br.readLine()) != null) {
     			dictionnaire.add(ligne);
     		}		
 			br.close();
-			fr.close();
+			isr.close();
     	}
     	catch(FileNotFoundException e) { 
     		System.err.println(" ERREUR Fichier non touvé  ");
