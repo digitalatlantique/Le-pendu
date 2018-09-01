@@ -3,7 +3,7 @@
 ## Auteur : *Mickaël L*
 
 ## Avancement du projet 
-Le jeu est fonctionnel. Le nombre de coup proposé est à améliorer. 
+Le jeu est fonctionnel. Le nombre de coups proposé est à améliorer. 
 
 ## Description et objectif
  Le but de ce projet est de réaliser un jeu simple du pendu, en mode ligne de commande et en manipulant chaînes de caractères et tableaux. Le dictionnaire est généré à partir d'un fichier plat.
@@ -13,6 +13,6 @@ Java Runtime Environment : JRE 9.0.1
 * java -jar lePendu.jar
 
 ## Disponible dans ce projet 
-* un executable => lePendu.jar
+* un exécutable => lePendu.jar
 * un diagramme de classe => penduDiagramClass.jpg
 * une documentation => javaDoc
